@@ -1,3 +1,8 @@
+
+body{
+    margin: 0;
+}
+
 .cryptoIconBox{
     background-color: black;
     color: white;
@@ -33,15 +38,13 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     width: fit-content;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    /* margin-left: 5em; */
    /* position: sticky;
    top: 100px;
    z-index: 1000; */
 }
 
-body{
-    margin: 0;
-}
