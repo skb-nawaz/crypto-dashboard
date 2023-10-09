@@ -39,7 +39,8 @@ function Sidebar() {
   ];
 
   return (
-    <div className="sidebar" style={{ overflow: 'hidden' }}>
+    <div className="sidebar">
+    <div  style={{ overflow: 'hidden' }}>
       <Drawer
         sx={{
           width: drawerWidth,
@@ -83,6 +84,7 @@ function Sidebar() {
       <div className="content">
         <Outlet />
       </div>
+    </div>
     </div>
   );
 }

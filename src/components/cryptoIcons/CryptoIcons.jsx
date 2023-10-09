@@ -9,7 +9,7 @@ function CryptoIcons() {
     <div className='cryptoContainer'>
       <button className='btnstyle'>
       <div className='cryptoIconBox'>
-      <AiFillAppstore style={{ fontSize: '1.5rem' }} />
+      <AiFillAppstore style={{ fontSize: '1rem' }} />
       <p value="All">All</p>
     </div>
     </button>
@@ -35,18 +35,6 @@ function CryptoIcons() {
       <div className='cryptoIconBox'>
       <Dai style={{ fontSize: '1.5rem' }} />
       <p value="Dai">Dai</p>
-    </div>
-    </button>
-    <button className='btnstyle'>
-      <div className='cryptoIconBox'>
-      <Doge style={{ fontSize: '1.5rem' }} />
-      <p value="Doge">Doge</p>
-    </div>
-    </button>
-    <button className='btnstyle'>
-      <div className='cryptoIconBox'>
-      <Usdc style={{ fontSize: '1.5rem' }} />
-      <p value="Usdc">Usdc</p>
     </div>
     </button>
     <button className='btnstyle'>
